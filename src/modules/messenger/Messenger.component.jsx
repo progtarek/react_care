@@ -1,5 +1,15 @@
 import React from 'react';
+import ConversationSidebar from './components/conversation-sidebar/ConversationSidebar.component';
+import ConversationThread from './components/conversation-thread/ConversationThread.component';
+import { MessengerContainer } from './Messenger.styles';
 
-export default function Messenger() {
-  return <div>Messenger component is working</div>;
-}
+const Messenger = () => {
+  return (
+    <MessengerContainer id='messenger'>
+      <ConversationSidebar />
+      <ConversationThread />
+    </MessengerContainer>
+  );
+};
+
+export default Messenger;

@@ -53,6 +53,7 @@ export const LayoutContainer = styled.div`
   height: 100vh;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 `;
 
 export const NavContainer = styled.div`
