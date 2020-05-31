@@ -1,10 +1,20 @@
 import React from 'react';
-import { ConversationSidebarContainer } from './ConversationSidebar.styles';
+import {
+  ConversationSidebarContainer,
+  ConversationHeaderContainer,
+} from './ConversationSidebar.styles';
+
+import ConversationList from '../conversation-list/ConversationList.component';
 
 const ConversationSidebar = () => {
   return (
     <ConversationSidebarContainer>
-      conversation side bar
+      <ConversationHeaderContainer>
+        <div className='title'>Conversations</div>
+        <div className='new-conversation'></div>
+      </ConversationHeaderContainer>
+
+      <ConversationList></ConversationList>
     </ConversationSidebarContainer>
   );
 };

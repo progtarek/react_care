@@ -77,11 +77,12 @@ export const NavList = styled.ul`
   padding: 0;
   display: flex;
   flex: 1 0;
-  width: 100%;
+  width: 80px;
   margin-top: 22px;
   list-style: none;
   align-items: center;
   flex-direction: column;
+
   li {
     width: 100%;
     height: 80px;
