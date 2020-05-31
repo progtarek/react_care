@@ -10,6 +10,7 @@ const MESSENGER_DATA = [
     lastMessage: 'Sed mollis mi iaculis tincidu lorem ipsum ',
     status: 'seen',
     unseenCount: 0,
+    active: true,
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const MESSENGER_DATA = [
     lastMessage: 'Sed mollis mi iaculis tincidu ',
     status: 'unseen',
     unseenCount: 2,
+    active: false,
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const MESSENGER_DATA = [
     lastMessage: 'Lorem ipsum dolor sit amet consectetur adipisicing ',
     status: 'seen',
     unseenCount: 0,
+    active: false,
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ const MESSENGER_DATA = [
       'expedita commodi, minima ipsa quas soluta corrupti doloremque qui',
     status: 'seen',
     unseenCount: 0,
+    active: false,
   },
   {
     id: 5,
@@ -55,6 +59,7 @@ const MESSENGER_DATA = [
     lastMessage: 'Lorem ipsum dolor sit amet consectetur adipisicing ',
     status: 'seen',
     unseenCount: 0,
+    active: false,
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ const MESSENGER_DATA = [
       'Sed mollis mi iaculis tincidu..., minima ipsa quas soluta corrupti doloremque qui',
     status: 'unseen',
     unseenCount: 5,
+    active: false,
   },
   {
     id: 7,
@@ -79,6 +85,7 @@ const MESSENGER_DATA = [
     lastMessage: 'Lorem ipsum dolor sit amet consectetur adipisicing ',
     status: 'seen',
     unseenCount: 0,
+    active: false,
   },
 ];
 

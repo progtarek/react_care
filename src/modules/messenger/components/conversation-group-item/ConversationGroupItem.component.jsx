@@ -14,9 +14,10 @@ const ConversationGroupItem = ({
   unseenCount,
   lastActivity,
   lastMessenger,
+  active,
 }) => {
   return (
-    <ConversationGroupItemContainer>
+    <ConversationGroupItemContainer className={active ? 'active' : ''}>
       <ConversationAvatar url={avatar} className={status} />
       <ConversationMediaObjectBody>
         <div className='group-title'>{groupTitle}</div>

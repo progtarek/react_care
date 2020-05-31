@@ -67,6 +67,10 @@ export const ConversationGroupItemContainer = styled.div`
     font-size: 16px;
     font-weight: 700;
   }
+
+  &.active {
+    background-color: #ecf2f2;
+  }
 `;
 
 export const ConversationAvatar = styled.div`

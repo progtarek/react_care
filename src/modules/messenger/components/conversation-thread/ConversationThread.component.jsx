@@ -1,9 +1,12 @@
 import React from 'react';
 import { ConversationThreadContainer } from './ConversationThread.styles';
+import ConversationThreadHeader from '../conversation-thread-header/ConversationThreadHeader.component';
 
 const ConversationThread = () => {
   return (
-    <ConversationThreadContainer>conversation main</ConversationThreadContainer>
+    <ConversationThreadContainer>
+      <ConversationThreadHeader />
+    </ConversationThreadContainer>
   );
 };
 
