@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ConversationBubbleContainer = styled.div`
   padding-left: 30px;
-  max-width: 80%;
+  max-width: 70%;
   margin-bottom: 0.75rem;
 
   .messenger {

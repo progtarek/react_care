@@ -3,13 +3,10 @@ import DefaultAvatarIcon from '../../../../assets/img/messenger/ic_default_group
 import { WHITE } from '../../../../shared/styles/variables';
 
 export const ConversationMediaObject = css`
-  border-bottom: 2px solid #e7e9e9;
-  height: 100px;
   width: 100%;
   padding: 0 15px;
   display: flex;
   align-items: center;
-  cursor: pointer;
   color: #666666;
 
   &:last-child {
@@ -20,8 +17,11 @@ export const ConversationMediaObject = css`
 export const ConversationMediaObjectFooter = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
-  flex: 1 0;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
 
   .last-activity {
     color: #909b9c;
@@ -61,7 +61,11 @@ export const ConversationMediaObjectBody = styled.div`
 `;
 
 export const ConversationListItemContainer = styled.div`
-  ${ConversationMediaObject};
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e7e9e9;
 
   .group-title {
     font-size: 16px;
@@ -71,6 +75,10 @@ export const ConversationListItemContainer = styled.div`
   &.active {
     background-color: #ecf2f2;
   }
+`;
+
+export const ConversationListItemWrapper = styled.div`
+  ${ConversationMediaObject};
 `;
 
 export const ConversationAvatar = styled.div`
