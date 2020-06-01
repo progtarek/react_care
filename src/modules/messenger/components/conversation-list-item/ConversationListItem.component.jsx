@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  ConversationGroupItemContainer,
+  ConversationListItemContainer,
   ConversationMediaObjectFooter,
   ConversationMediaObjectBody,
   ConversationAvatar,
-} from './ConversationGroupItem.styles';
+} from './ConversationListItem.styles';
 
-const ConversationGroupItem = ({
+const ConversationListItem = ({
   avatar,
   status,
   groupTitle,
@@ -17,7 +17,7 @@ const ConversationGroupItem = ({
   active,
 }) => {
   return (
-    <ConversationGroupItemContainer className={active ? 'active' : ''}>
+    <ConversationListItemContainer className={active ? 'active' : ''}>
       <ConversationAvatar url={avatar} className={status} />
       <ConversationMediaObjectBody>
         <div className='group-title'>{groupTitle}</div>
@@ -30,8 +30,8 @@ const ConversationGroupItem = ({
           <div className='unseen-count'>{unseenCount}</div>
         ) : null}
       </ConversationMediaObjectFooter>
-    </ConversationGroupItemContainer>
+    </ConversationListItemContainer>
   );
 };
 
-export default ConversationGroupItem;
+export default ConversationListItem;

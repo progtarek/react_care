@@ -60,7 +60,7 @@ export const ConversationMediaObjectBody = styled.div`
   }
 `;
 
-export const ConversationGroupItemContainer = styled.div`
+export const ConversationListItemContainer = styled.div`
   ${ConversationMediaObject};
 
   .group-title {
