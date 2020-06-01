@@ -22,6 +22,17 @@ const CHAT_LIST = [
       'https://res.cloudinary.com/dl8setzc9/image/upload/v1590886667/1.png',
     sentOn: '9:12a',
   },
+  {
+    id: 'df41as5df1',
+    type: 'diagnose',
+    title: 'Chest Pain',
+    releasedOn: 'FRI Oct 12 4:27 PM',
+    email: 'kbecker@gmail.com completed - THU Oct 11 3:29 PM',
+    messenger: 'kn',
+    avatar:
+      'https://res.cloudinary.com/dl8setzc9/image/upload/v1590886422/2.png',
+    sentOn: '9:15a',
+  },
 ];
 
 export default CHAT_LIST;
