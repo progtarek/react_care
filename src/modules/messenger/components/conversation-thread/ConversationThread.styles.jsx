@@ -5,10 +5,3 @@ export const ConversationThreadContainer = styled.section`
   flex-direction: column;
   flex: 1 0;
 `;
-
-export const Tarek = styled.div`
-  flex: 1 1 0;
-  order: 2;
-  position: relative;
-  z-index: 1;
-`;

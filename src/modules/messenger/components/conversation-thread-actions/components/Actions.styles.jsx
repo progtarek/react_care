@@ -51,6 +51,6 @@ export const ActionIconContainer = styled.div`
   margin-left: 1rem;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #79c4ca;
   }
 `;
