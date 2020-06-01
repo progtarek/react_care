@@ -18,18 +18,19 @@ const ConversationThreadContent = () => {
               <ConversationDiagnose {...rest}></ConversationDiagnose>
             </ConversationBubble>
           );
+        } else if (type === 'task') {
+          return (
+            <ConversationBubble key={id} {...rest}>
+              <ConversationTask {...rest} />
+            </ConversationBubble>
+          );
         }
         return (
           <ConversationBubble key={id} {...rest}>
-            <ConversationTask {...rest} />
+            {rest.content}
           </ConversationBubble>
         );
       })}
-      {/*
-      <ConversationBubble messenger='me'>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in
-        maxime excepturi placeat
-      </ConversationBubble> */}
     </ConversationThreadContentContainer>
   );
 };

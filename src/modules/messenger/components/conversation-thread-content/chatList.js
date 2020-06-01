@@ -33,6 +33,26 @@ const CHAT_LIST = [
       'https://res.cloudinary.com/dl8setzc9/image/upload/v1590886422/2.png',
     sentOn: '9:15a',
   },
+  {
+    id: 'df4156s5df1',
+    type: 'normal',
+    content:
+      'I moved Karen’s knitting kit from the study upstairs to the the living room.',
+    messenger: 'mk',
+    avatar:
+      'https://res.cloudinary.com/dl8setzc9/image/upload/v1590886667/3.png',
+    sentOn: '10:03a',
+  },
+  {
+    id: 'df41ghs5df1',
+    type: 'normal',
+    content:
+      'That’s a good call. I’ll be stopping by later to have dinner with her. Pizza for everyone! Join us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem enim. Praesent accumsan feugiat lorem et finibus. Vestibulum scelerisque id eros dignissim tincidunt. Morbi id tortor egestas, feugiat massa viverra, posuere nisl.',
+    messenger: 'me',
+    avatar:
+      'https://res.cloudinary.com/dl8setzc9/image/upload/v1590886667/1.png',
+    sentOn: '10:30a',
+  },
 ];
 
 export default CHAT_LIST;
